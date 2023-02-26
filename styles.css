@@ -150,14 +150,14 @@ header .textos-header{
     width:100%;
 }
 
-.cakeshoop h2 {
+.cakeshop h2 {
     margin-bottom: 10px;
     justify-content: space-evenly;
     margin-left: 15px;
     margin-top: 10px;
 }
 
-.cakeshoop h3{
+.cakeshop h3{
     padding: 0px 0px 15px 15px;
     font-weight: 300;
     text-align: justify;
@@ -203,11 +203,57 @@ header .textos-header{
     background-size: cover;
 }
 
-footer {
-    background-color: gray;
-
+.footer {
+    width: 100%;
+    background: #333;
+    display: flex;
+    flex-direction: column;
 }
 
+.row-1 {
+    padding: 20px 15%;
+    color: #efefef;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.row-1 .col-2{
+    flex-grow: 25;
+}
+
+.row-1 div h3{
+    font-weight : 300;
+    margin-bottom : 30px;
+    letter-spacing: 1px;
+}
+
+.row-1 .col-1 a{
+    display: block;
+    text-decoration : none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.row-1 .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.row-1 h2 {
+    text-decoration: underline;
+}
+
+.row-2 {
+    margin-left: 14rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
 /* CONTACT STYLES */
 .hero {
     width: 100%;
@@ -266,4 +312,8 @@ textarea:focus~label,
 textarea:valid~label{
     top: -35px;
     font-size: 14px;
+}
+
+.container-contact header nav a {
+    color: #fff;
 }
